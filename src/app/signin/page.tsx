@@ -126,7 +126,7 @@ export default function SignInPage() {
                 </Button>
 
                 <div className="text-center text-white text-sm">
-                  I Don't Have Account? <a href="/signup" className="underline">Sign Up</a>
+                  Don&apos;t have an account? <a href="/signup" className="underline">Sign Up</a>
                 </div>
               </form>
             </CardContent>
