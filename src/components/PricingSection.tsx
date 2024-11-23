@@ -18,7 +18,7 @@ export default function PricingSection() {
             { recommended: true },
             { recommended: false }
           ].map((plan, i) => (
-            <div key={i} className="pricing-card relative transition-transform hover:scale-105 duration-300">
+            <div key={i} className="pricing-card relative bg-white rounded-3xl p-6 hover-popup">
               {plan.recommended && (
                 <div className="absolute -top-4 inset-x-0">
                   <div className="bg-blue-600 text-white text-center py-2 px-4 rounded-t-lg w-36 mx-auto">

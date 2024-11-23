@@ -31,7 +31,7 @@ export default function ShowcasedIndustries() {
               {/* Left column */}
               <div className="space-y-6">
                 {[1, 2].map((_, i) => (
-                  <div key={i} className="industries-card bg-blue-600 rounded-3xl p-6 text-white transition-transform hover:scale-105 duration-300">
+                  <div key={i} className="industries-card bg-blue-600 rounded-3xl p-6 text-white hover-popup">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4">
                       <ShoppingCart className="w-8 h-8 text-blue-600" />
                     </div>
@@ -49,7 +49,7 @@ export default function ShowcasedIndustries() {
               {/* Right column - offset */}
               <div className="space-y-6 mt-0 sm:mt-12">
                 {[1, 2].map((_, i) => (
-                  <div key={i} className="industries-card bg-blue-600 rounded-3xl p-6 text-white transition-transform hover:scale-105 duration-300">
+                  <div key={i} className="industries-card bg-blue-600 rounded-3xl p-6 text-white hover-popup">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4">
                       <ShoppingCart className="w-8 h-8 text-blue-600" />
                     </div>

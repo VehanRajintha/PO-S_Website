@@ -22,7 +22,7 @@ export default function FeatureSection() {
                 i === 1
                   ? "bg-blue-600 text-white"
                   : "bg-blue-50"
-              } transition-transform hover:scale-105 duration-300`}
+              } hover-popup`}
             >
               <div className={`w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center mb-4 md:mb-6 ${
                 i === 1 ? "bg-white/20" : "bg-white"
