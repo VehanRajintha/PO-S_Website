@@ -4,7 +4,6 @@ import HeroSection from '../components/HeroSection'
 import FeatureSection from '../components/FeatureSection'
 import PricingSection from '../components/PricingSection'
 import ShowcasedIndustries from '../components/ShowcasedIndustries'
-import AppDownloadSection from '../components/AppDownloadSection'
 import AppDownloadCards from '../components/AppDownloadCards'
 import Footer from '../components/Footer'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
@@ -20,7 +19,6 @@ export default function Home() {
         <FeatureSection />
         <PricingSection />
         <ShowcasedIndustries />
-        <AppDownloadSection />
         <AppDownloadCards />
         <Footer />
       </main>
