@@ -31,10 +31,16 @@ export default function Navigation() {
           Contact
         </Link>
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 mt-4 lg:mt-0">
-          <Button className="w-full lg:w-auto bg-white text-blue-600 hover:bg-blue-100 transition-colors">Sign In</Button>
-          <Button variant="outline" className="w-full lg:w-auto text-white border-white hover:bg-white/20 transition-colors">
-            Sign Up
-          </Button>
+          <Link href="/signin">
+            <Button className="w-full lg:w-auto bg-white text-blue-600 hover:bg-blue-100 transition-colors">
+              Sign In
+            </Button>
+          </Link>
+          <Link href="/signup">
+            <Button variant="outline" className="w-full lg:w-auto text-white border-white hover:bg-white/20 transition-colors">
+              Sign Up
+            </Button>
+          </Link>
         </div>
       </div>
     </nav>
