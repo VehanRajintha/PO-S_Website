@@ -1,3 +1,18 @@
+ ### Hi there 👋
+ 
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=35&pause=1000&color=721DF7&width=435&lines=POS+System+Websites%2C)](https://git.io/typing-svg)
+
+ ![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCypso-Labs%2FMy_Modules_SLIIT&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
+
+
+![forks](https://img.shields.io/github/forks/Cypso-Labs/POS-website?label=Forks&style=social)
+![stars](https://img.shields.io/github/stars/Cypso-Labs/POS-website?style=social)
+
+![size](https://img.shields.io/github/repo-size/Cypso-Labs/POS-website?color=purple&label=Repo%20Size&style=plastic)
+![license](https://img.shields.io/github/license/Cypso-Labs/POS-website?color=purple&label=License&style=plastic)
+![developer](https://img.shields.io/static/v1?label=Author&message=Vehan%20Rajintha&color=purple&style=plastic)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
