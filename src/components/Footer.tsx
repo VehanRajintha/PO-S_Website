@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-600 text-white">
+    <footer className="bg-[#4052FF] text-white">
       {/* Newsletter Section */}
       <div className="bg-white/5 p-6 md:p-8 rounded-3xl mx-4 -mt-12 relative">
         <div className="absolute top-4 right-4 text-sm text-white/80">

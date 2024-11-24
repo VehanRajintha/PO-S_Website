@@ -8,19 +8,42 @@ export default function FeatureSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 feature-title">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            High-Impact <span className="bg-blue-600 text-white px-4 py-1 rounded-full">Features</span>
+            High-Impact <span className="bg-[#4052FF] text-white px-4 py-1 rounded-full">Features</span>
           </h2>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
             Lorem ipsum dolor sit amet consectetur. Tristique fermentum nunc pellentesque viverra. Diam lectus gravida est semper eget ornare fringilla amet. Tempus lacinia leo molestie placerat nunc ut.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto relative min-h-[500px]">
+          <div className="absolute inset-0 -z-10 h-[200%] -top-[50%]">
+            <svg
+              className="w-full h-full"
+              viewBox="0 0 1440 100"
+              preserveAspectRatio="none"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 50L48 45.8333C96 41.6667 192 33.3333 288 29.1667C384 25 480 25 576 33.3333C672 41.6667 768 58.3333 864 62.5C960 66.6667 1056 58.3333 1152 45.8333C1248 33.3333 1344 16.6667 1392 8.33333L1440 0V100H1392C1344 100 1248 100 1152 100C1056 100 960 100 864 100C768 100 672 100 576 100C480 100 384 100 288 100C192 100 96 100 48 100H0V50Z"
+                fill="#3B82F6"
+                fillOpacity="0.25"
+              />
+              <path
+                d="M0 50L48 45.8333C96 41.6667 192 33.3333 288 29.1667C384 25 480 25 576 33.3333C672 41.6667 768 58.3333 864 62.5C960 66.6667 1056 58.3333 1152 45.8333C1248 33.3333 1344 16.6667 1392 8.33333L1440 0V100H1392C1344 100 1248 100 1152 100C1056 100 960 100 864 100C768 100 672 100 576 100C480 100 384 100 288 100C192 100 96 100 48 100H0V50Z"
+                fill="#2563EB"
+                fillOpacity="0.15"
+                transform="translate(0, 20)"
+              />
+            </svg>
+          </div>
+
           {Array.from({ length: 6 }).map((_, i) => (
             <div
               key={i}
               className={`feature-card rounded-3xl p-6 md:p-8 ${
                 i === 1
-                  ? "bg-blue-600 text-white"
+                  ? "bg-[#4052FF] text-white"
                   : "bg-blue-50"
               } hover-popup`}
             >

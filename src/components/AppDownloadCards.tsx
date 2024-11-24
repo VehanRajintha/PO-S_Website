@@ -41,7 +41,7 @@ export default function AppDownloadCards() {
             
             <div className="flex-1 flex justify-center">
               <Image
-                src="/placeholder.svg"
+                src="/userapp.svg"
                 alt="User App Illustration"
                 width={300}
                 height={300}
@@ -51,7 +51,7 @@ export default function AppDownloadCards() {
             
             <div className="w-48 h-48 md:w-64 md:h-64 bg-white p-4 rounded-2xl transition-all hover:scale-110 hover:shadow-lg duration-300 ease-in-out">
               <Image
-                src="/placeholder.svg"
+                src="/qr.svg"
                 alt="QR Code"
                 width={240}
                 height={240}
@@ -66,7 +66,7 @@ export default function AppDownloadCards() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="w-48 h-48 md:w-64 md:h-64 bg-white p-4 rounded-2xl transition-transform hover:scale-110 duration-300">
               <Image
-                src="/placeholder.svg"
+                src="/qr.svg"
                 alt="QR Code"
                 width={240}
                 height={240}
@@ -76,7 +76,7 @@ export default function AppDownloadCards() {
 
             <div className="flex-1 flex justify-center">
               <Image
-                src="/placeholder.svg"
+                src="/delevery.svg"
                 alt="Delivery App Illustration"
                 width={300}
                 height={300}

@@ -9,7 +9,7 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-4 bg-blue-600">
+    <nav className="flex flex-wrap items-center justify-between p-4 bg-[#4052FF]">
       <div className="text-2xl font-bold text-white">Cypso POS</div>
       <button 
         className="lg:hidden text-white"
