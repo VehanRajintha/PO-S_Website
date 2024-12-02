@@ -37,10 +37,6 @@ export default function SignInPage() {
     }
   }
 
-  const handleSignUpClick = () => {
-    router.push('/signup')
-  }
-
   const handleNavigation = (path: string) => {
     console.log('Navigating to:', path)
     router.push(path)
