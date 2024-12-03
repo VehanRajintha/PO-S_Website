@@ -142,16 +142,16 @@ export default function SignInPage() {
         </div>
         <div className="flex space-x-2 pr-8">
           <Button 
-            variant="ghost" 
-            className="text-white hover:bg-white/20 rounded-full px-8 cursor-pointer z-50"
+            variant="outline" 
+            className="bg-white text-[#4052ff] hover:bg-white/90 rounded-full px-8 cursor-pointer z-50"
             onClick={() => handleNavigation('/signin')}
             type="button"
           >
             Sign In
           </Button>
           <Button 
-            variant="outline" 
-            className="bg-white text-[#4052ff] hover:bg-white/90 rounded-full px-8 cursor-pointer z-50"
+            variant="ghost" 
+            className="text-white hover:bg-white/20 rounded-full px-8 cursor-pointer z-50"
             onClick={() => handleNavigation('/signup')}
             type="button"
           >
