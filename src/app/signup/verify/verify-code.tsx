@@ -49,41 +49,46 @@ export default function VerifyCode() {
   }
 
   return (
-    <Card className="bg-[#7B88F7]/50 backdrop-blur-sm">
-      <CardContent className="p-8">
-        <h2 className="text-3xl font-bold text-white text-center mb-4">
-          Verify Code
-        </h2>
-        <p className="text-white/90 text-center mb-8">
-          It is a long established fact that a reader will be distracted by the readable content
-        </p>
+    <Card className="bg-[#6E82FE] h-[500px] rounded-3xl border-0">
+      <CardContent className="p-8 flex flex-col h-full">
+        <div className="mt-20">
+          <h2 className="text-3xl font-bold text-white text-center">
+            Verify Code
+          </h2>
+          <p className="text-white/90 text-center">
+            It is a long established fact that a reader
+          </p>
+          <p className="text-white/90 text-center">
+            will be distracted by the readable content
+          </p>
+        </div>
         
-        <div className="text-center mb-2">
-          <p className="text-white/80 text-sm">Enter OTP</p>
-        </div>
+        <div className="flex flex-col items-center mt-8">
+          <p className="text-white mb-6">Enter OTP</p>
 
-        <div className="flex justify-between gap-2 mb-6">
-          {otp.map((digit, index) => (
-            <input
-              key={index}
-              type="text"
-              maxLength={1}
-              value={digit}
-              ref={inputRefs[index]}
-              onChange={(e) => handleChange(index, e.target.value)}
-              onKeyDown={(e) => handleKeyDown(index, e)}
-              className="w-12 h-12 text-center text-lg font-semibold border rounded bg-white/20 border-white/30 text-white focus:outline-none focus:ring-2 focus:ring-white/50"
-            />
-          ))}
-        </div>
+          <div className="flex justify-center gap-3 mb-8">
+            {otp.map((digit, index) => (
+              <input
+                key={index}
+                type="text"
+                maxLength={1}
+                value={digit}
+                ref={inputRefs[index]}
+                onChange={(e) => handleChange(index, e.target.value)}
+                onKeyDown={(e) => handleKeyDown(index, e)}
+                className="w-[52px] h-[52px] text-center text-lg font-semibold bg-white rounded-xl border-2 border-white text-[#4052ff] focus:outline-none focus:ring-2 focus:ring-white/50"
+              />
+            ))}
+          </div>
 
-        <Button 
-          className="w-full bg-[#4052EE] hover:bg-[#4052EE]/90 text-white py-6"
-          disabled={otp.some(digit => !digit) || isLoading}
-          onClick={handleVerify}
-        >
-          {isLoading ? "Verifying..." : "Verify"}
-        </Button>
+          <Button 
+            className="w-full bg-[#4052EE] hover:bg-[#4052EE]/90 text-white rounded-2xl h-14 text-base font-medium"
+            disabled={otp.some(digit => !digit) || isLoading}
+            onClick={handleVerify}
+          >
+            {isLoading ? "Verifying..." : "Verify"}
+          </Button>
+        </div>
       </CardContent>
     </Card>
   )
